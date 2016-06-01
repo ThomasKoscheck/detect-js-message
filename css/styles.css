@@ -1,0 +1,41 @@
+/* demo reset */
+* {
+   padding:0;
+   margin: 0;
+}
+
+.noscript__wrapper {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 99;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(255,255,255,0.5);
+}
+
+/* edit the following styles to suit your theme */
+.noscript__msg {
+   text-align: center;
+   max-width: 500px;
+   background-color: #f3f3f3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 2em 3em;
+   font-family: sans-serif;
+   line-height: 1.4;
+}
+
+.noscript__msg span {
+   display: block;
+   color: #555;
+   font-size: 1rem;
+}
